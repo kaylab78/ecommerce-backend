@@ -22,11 +22,18 @@ router.get('/', (req, res) => {
 });
 
 router.get('/:id', (req, res) => {
-  // find one category by its `id` value
+  // find one category by its `id` value and include associated products
   Category.findOne({
     where: {
       id: req.params.id
-    }
+    },
+    attributes: ['id', 'category_name'],
+    include: [
+      {
+        model: Product, 
+        attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
+      }
+    ]
   })
     .then(dbCategoryData => {
       if (!dbCategoryData) {
@@ -39,7 +46,6 @@ router.get('/:id', (req, res) => {
       console.log(err);
       res.status(500).json(err);
     });
-  // be sure to include its associated Products
 });
 
 router.post('/', (req, res) => {
