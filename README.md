@@ -19,7 +19,6 @@ Walkthrough Video:
 ## Development
 
 ## Technologies
-- [bcrypt](https://www.npmjs.com/package/bcrypt)
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [Express.js](https://expressjs.com/)
 - [JawsDB](https://elements.heroku.com/addons/jawsdb)
