@@ -19,6 +19,15 @@ Walkthrough Video:
 ## Development
 
 ## Technologies
+- [bcrypt](https://www.npmjs.com/package/bcrypt)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [Express.js](https://expressjs.com/)
+- [JawsDB](https://elements.heroku.com/addons/jawsdb)
+- [MySQL2](https://www.npmjs.com/package/mysql2)
+- [Node.js](https://nodejs.dev/)
+- [nodemon](https://www.npmjs.com/package/nodemon)
+- [Sequelize](https://www.npmjs.com/package/sequelize)
+
 
 ## License
 &copy; 2022 by Kayla Backus
