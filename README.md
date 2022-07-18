@@ -25,7 +25,6 @@ Walkthrough Video:
 - [Node.js](https://nodejs.dev/)
 - [Sequelize](https://www.npmjs.com/package/sequelize)
 
-
 ## License
 &copy; 2022 by Kayla Backus
 
@@ -35,3 +34,5 @@ This project is licensed under the MIT license.
 
 ## Credits
 Starter code cloned from Xander Rapstine at [https://github.com/coding-boot-camp/fantastic-umbrella](https://github.com/coding-boot-camp/fantastic-umbrella).
+
+Meg Meyers, boot camp tutor, assisted me with the POST and PUT routes for Product.
