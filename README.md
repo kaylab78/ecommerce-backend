@@ -46,7 +46,7 @@ Category:
 Tag:
 - Use a GET route with [http://localhost:3001/api/tags](http://localhost:3001/api/tags) to get all of the tags in the database.
 - Use a GET route with an ID to get just one tag. Example: [http://localhost:3001/api/tags/1](http://localhost:3001/api/tags/1)
-- Use a POST route to create a new tag. Use [http://localhost:3001/api/tags](http://localhost:3001/api/tags) with JSON in the body. Example: `{ "category_name" : "jazz music" }`
+- Use a POST route to create a new tag. Use [http://localhost:3001/api/tags](http://localhost:3001/api/tags) with JSON in the body. Example: `{ "tag_name" : "jazz music" }`
 - Use a PUT route to update a tag using the tag ID. Example: [http://localhost:3001/api/tags/9](http://localhost:3001/api/tags/9) with JSON body `{ "tag_name" : "summer" }`
 - Use a DELETE route to delete a tag using the ID. Example: [http://localhost:3001/api/tags/9](http://localhost:3001/api/tags/9)
 
